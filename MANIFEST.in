@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include zugferd *.css
+recursive-include zugferd *.csv
+recursive-include zugferd *.html
+recursive-include zugferd *.ico
+recursive-include zugferd *.js
+recursive-include zugferd *.json
+recursive-include zugferd *.md
+recursive-include zugferd *.png
+recursive-include zugferd *.py
+recursive-include zugferd *.svg
+recursive-include zugferd *.txt
+recursive-exclude zugferd *.pyc
